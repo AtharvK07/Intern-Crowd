@@ -10,7 +10,7 @@ body {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 13px;
     display: flex;
   }
   
@@ -39,13 +39,13 @@ body {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6.9px;
   }
   
   input[type="submit"] {
     background-color: #4CAF50;
     color: #fff;
-    padding: 10px 15px;
+    padding: 10px 14px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -61,7 +61,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
   }
 
   .separator::before,
