@@ -13,7 +13,14 @@ body {
     padding: 13px;
     display: flex;
   }
-  
+
+.contact form .input-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
   .container .signup,
   .container .login {
     flex: 1;
