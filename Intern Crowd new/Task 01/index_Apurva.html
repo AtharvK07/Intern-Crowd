@@ -1,0 +1,188 @@
+Here are some changes made to your HTML code to enhance the structure and appearance of your landing page:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InternForte IIT BOMBAY Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif; /* Changed font to Arial and added sans-serif as a fallback */
+    }
+
+    header {
+      background-color: #0080FF; /* Changed header background color */
+      color: white; /* Changed text color to white */
+    }
+
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      align-items: center; /* Center align menu items vertically */
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    .mid {
+      display: flex;
+      align-items: center; /* Center align content vertically */
+      padding: 20px; /* Added padding for spacing */
+    }
+
+    .lefttext {
+      flex: 1;
+    }
+
+    .rightImg {
+      flex: 1;
+      text-align: center; /* Center align content within the right section */
+    }
+
+    #sliding-image {
+      margin-top: 50px; /* Increased top margin for spacing */
+    }
+
+    .button {
+      background-color: #FF5733; /* Changed button background color */
+      color: white;
+      font-size: 20px; /* Increased font size */
+      padding: 10px 20px; /* Increased padding for button */
+      border: none;
+      cursor: pointer;
+    }
+
+    #card-view {
+      display: flex;
+      justify-content: center; /* Center align cards horizontally */
+      flex-wrap: wrap; /* Allow cards to wrap to the next row */
+      padding: 20px; /* Added padding for spacing */
+    }
+
+    .card {
+      width: 300px;
+      margin: 20px; /* Added margin for spacing between cards */
+      padding: 20px; /* Added padding for spacing inside cards */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box-shadow for card effect */
+      text-align: center;
+    }
+
+    #cta-section {
+      background-color: #F2F2F2; /* Changed background color */
+      text-align: center;
+      padding: 50px 0; /* Added padding for spacing */
+    }
+
+    .cta-button {
+      background-color: #0080FF; /* Changed button background color */
+      color: white;
+      font-size: 24px;
+      padding: 15px 30px; /* Increased padding for button */
+      text-decoration: none;
+      border: none;
+    }
+
+    footer {
+      background-color: #333; /* Changed footer background color */
+      color: white; /* Changed text color to white */
+      text-align: center;
+      padding: 20px 0; /* Added padding for spacing */
+    }
+
+    footer ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .social-media-icons {
+      margin-top: 20px; /* Added top margin for spacing */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li style="font-weight: 600; font-size: 24px;">Intern Crowd</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Internships</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="mid">
+    <div class="lefttext">
+      <section id="sliding-image">
+        <h1 style="font-size: 50px;">Find Your Perfect Internship Today and Gain Experience!</h1>
+        <p style="font-size: 25px; margin-top: 25px;">Join the InternCrowd Community and Kickstart Your Career!</p>
+        <button class="button">Start Your Internship at Earliest</button>
+      </section>
+    </div>
+    <div class="rightImg">
+      <section id="slide-window">
+        <img src="intership.webp" height="400px" width="600px" alt="">
+      </section>
+    </div>
+  </div>
+
+  <section id="card-view">
+    <div class="card">
+      <img src="intern01.png" alt="Intern working on a project">
+      <h2>Explore Exciting Internship Opportunities and More</h2>
+      <p>Discover a wide range of internships across various industries. Gain valuable hands-on experience, learn new skills, and build your professional network.</p>
+    </div>
+
+    <div class="card">
+      <img src="profes.jpg" alt="Interns collaborating in a meeting">
+      <h2>Connect with Industry Professionals</h2>
+      <p>Interact with experienced mentors and industry experts who can guide you in your career path. Expand your network and unlock future opportunities.</p>
+    </div>
+
+    <div class="card">
+      <img src="techno.jpg" alt="Intern presenting to a group">
+      <h2>Gain Real-World Experience</h2>
+      <p>Work on real projects and tasks that contribute to the success of companies. Apply your knowledge, develop practical skills, and enhance your resume.</p>
+    </div>
+
+    <div class="card">
+      <img src="relation.jpeg" alt="Interns celebrating their accomplishments">
+      <h2>Build Lasting Relationships</h2>
+      <p>Connect with fellow interns from around the world, exchange ideas, and create lasting friendships. Embrace a supportive community that fosters growth and collaboration.</p>
+    </div>
+  </section>
+
+  <section id="cta-section">
+    <h2>Join InternCrowd today and unlock your potential!</h2>
+    <p>Sign up for free to access exclusive internship opportunities and take the first step towards a successful career.</p>
+    <a href="#" class="cta-button">Sign Up Now</a>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <div class="social-media-icons">
+      <!-- Social media icons go here -->
+    </div>
+  </footer>
+  <footer>
+    <p>&copy; 2023 InterCrowd developed by Apurva
