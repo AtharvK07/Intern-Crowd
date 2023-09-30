@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Temperature Converter</title> -->
+    <link rel="stylesheet" href="stylenfd.css" />
+</head>
+
+<body>
+    <div id="box">
+    <h1 id="headeris">Temperature Converter</h1>
+    <!-- <h1 id="headern">Celsius to Fahrenheit</h1> -->
+    <div id="main_div">
+
+        <div id="container">
+            <form name="calculator" onsubmit="myfun();return false;">
+               <div id="column">
+                    <div id="row">
+                    <label>Degrees </label><br>
+                    <input type="text" id="temp" name="temp" >
+                    </div>
+                    
+                    <div id="row">
+                    <label>Type </label><br>
+                <select id="select_temp" name="select_temp" id="select_temp">
+                    <optgroup label="Temperature">
+                    <option value="Celcius" name="celcius">Celcius</option>
+                    <option value="Fehranheit" name="fahrenheit">Fahrenheit</option>
+                </optgroup>
+                </select>
+                    </div>
+                    </div>
+                <br>
+                <div id="row">
+                    <label>Result </label><br>
+                <div id="resultcontainer">
+                    <span id="myresult"></span>
+                </div></div>
+                <br /><br />
+                <input type="submit" id="btn1" value="Convert" />
+            </form>
+
+        </div>
+
+        
+    </div>
+</div>
+</body>
+<script src="let result;.js"></script>
+</html>
