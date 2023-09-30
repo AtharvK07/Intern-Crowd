@@ -83,6 +83,7 @@ body {
   .or {
     font-weight: bold;
     color: #555;
+    font-family: Roboto, sans-serif;
   }
 
 /* Reset default margin and padding */
@@ -94,7 +95,7 @@ body {
   
   /* Basic styling */
   body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
   }
   
   header {
