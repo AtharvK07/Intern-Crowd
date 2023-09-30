@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
   }
   .container {
-    max-width: 600px;
+    max-width: 699px;
     margin: 100px auto;
     background-color: #fff;
     border-radius: 5px;
@@ -92,7 +92,7 @@ body {
   
   header {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 27px;
   }
   
   nav ul {
@@ -116,7 +116,7 @@ body {
   
   #slide-window {
     background-color: #f9f9f9;
-    padding: 40px;
+    padding: 69px;
     text-align: center;
   }
   
